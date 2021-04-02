@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+    nginx:
+      build:
+        context: ./nginx       
+      volumes:
+        - ./nginx:/etc/nginx
+      ports:
+        - 80:80
