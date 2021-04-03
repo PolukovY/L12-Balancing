@@ -2,5 +2,5 @@
  
 ### Build:
 ```
-./start.hs
+./start.sh
 ```
